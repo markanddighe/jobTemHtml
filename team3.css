@@ -1,0 +1,184 @@
+.main {
+    width: 90%;
+    margin: auto;
+}
+
+.navMain {
+    width: 100%;
+    /* height: 80px; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+
+}
+
+.navOneChild {
+    /* border: 1px solid; */
+    width: 35%;
+    /* height: 100px; */
+    margin-left: 20px;
+    color: #00b074;
+    display: flex;
+    align-items: center;
+}
+
+.navChildTwo {
+    /* border: 1px solid; */
+    width: 60%;
+    /* height: 80px; */
+    margin-left: 20px;
+
+    /* MAIN ANKAR TAG KE LEY */
+    gap: 70px;
+    display: flex;
+    /* MAIN ANKAR TAG KE LEY */
+    
+    align-items: center;
+}
+
+.navChildTwo>a:nth-child(6) {
+    /* border: 1px solid; */
+    width: 168px;
+    background-color: #00b074;
+    padding: 30px;
+}
+
+.navChildTwo>a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.headerMain{
+    background-image: linear-gradient(transparent 0%, rgb(231, 231, 231) 100%), url('../SELF/assets/carousel-1.jpg');
+    height: 600px;
+}
+
+.headerMainChild {
+    color: black;
+    font-size: 30px;
+    padding-top: 70px;
+    margin-left: 50px;
+}
+
+.searchButtonMain>button {
+    width: 150px;
+    height: 50px;
+}
+
+.searchButtonMain {
+    display: flex;
+    gap: 20px;
+}
+
+.searchButtonMain>button:nth-child(1) {
+    background-color: #00b074;
+    border: none;
+    color: white;
+}
+
+.searchButtonMain>button:nth-child(2) {
+    background-color: #2b9bff;
+    border: none;
+    color: white;
+}
+
+.inputSection {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #00b074;
+}
+
+.inputSection>div>input {
+    width: 315px;
+    height: 38px;
+}
+
+.inputSection>div>button {
+    width: 256px;
+    height: 35px;
+    background-color: #2B3940;
+    border: none;
+}
+
+.categoryHeadingMain {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.categoryMain {
+    /* border: 1px solid red; */
+    width: 90%;
+    /* height: 300px; */
+    margin: auto;
+    /* background-color: silver; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.categoryChild {
+    /* border: 1px solid brown; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;    width: 90%;
+    /* height: 160px; */
+    padding-left: 20px;
+}
+
+.categoryChild>img {
+    background-color: #00b074;
+    margin-top: 8px;
+    border-radius: 18px;
+}
+
+.categoryChild>h5 {
+    color: #00b074;
+}
+
+.talentMain {
+    /* border: 1px solid brown; */
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+.talentOne {
+    /* border: 1px solid red; */
+    width: 50%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.talentOne>div>img {
+    width: 100%;
+}
+
+
+
+
+.talentTwo {
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 500px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.talentTwo>button {
+    width: 200px;
+    height: 55px;
+    background-color: #00b074;
+    border: none;
+    color: white;
+}
