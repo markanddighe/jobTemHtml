@@ -1,0 +1,538 @@
+.main {
+    width: 90%;
+    margin: auto;
+}
+
+.navMain {
+    width: 100%;
+    /* height: 80px; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    align-items: center;
+
+}
+
+.navOneChild {
+    /* border: 1px solid; */
+    width: 35%;
+    /* height: 100px; */
+    margin-left: 20px;
+    color: #00b074;
+    display: flex;
+    align-items: center;
+}
+
+.navChildTwo {
+    /* border: 1px solid; */
+    width: 60%;
+    /* height: 80px; */
+    margin-left: 20px;
+
+    /* MAIN ANKAR TAG KE LEY */
+    gap: 70px;
+    display: flex;
+    /* MAIN ANKAR TAG KE LEY */
+
+    align-items: center;
+}
+
+.navChildTwo>a:nth-child(6) {
+    /* border: 1px solid; */
+    width: 168px;
+    background-color: #00b074;
+    padding: 30px;
+}
+
+.navChildTwo>a {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+
+.headerMain {
+    background-image: linear-gradient(transparent 0%, rgb(231, 231, 231) 100%), url('../jobSideNew/assets/carousel-1.jpg');
+    height: 600px;
+}
+
+.headerMainChild {
+    color: black;
+    font-size: 30px;
+    padding-top: 70px;
+    margin-left: 50px;
+}
+
+.searchButtonMain>button {
+    width: 150px;
+    height: 50px;
+}
+
+.searchButtonMain {
+    display: flex;
+    gap: 20px;
+}
+
+.searchButtonMain>button:nth-child(1) {
+    background-color: #00b074;
+    border: none;
+    color: white;
+}
+
+.searchButtonMain>button:nth-child(2) {
+    background-color: #2b9bff;
+    border: none;
+    color: white;
+}
+
+.inputSection {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: #00b074;
+}
+
+.inputSection>div>input {
+    width: 315px;
+    height: 38px;
+}
+
+.inputSection>div>button {
+    width: 256px;
+    height: 35px;
+    background-color: #2B3940;
+    border: none;
+}
+
+.categoryHeadingMain {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.categoryMain {
+    /* border: 1px solid red; */
+    width: 90%;
+    /* height: 300px; */
+    margin: auto;
+    /* background-color: silver; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.categoryChild {
+    /* border: 1px solid brown; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 90%;
+    /* height: 160px; */
+    padding-left: 20px;
+}
+
+.categoryChild>img {
+    background-color: #00b074;
+    margin-top: 8px;
+    border-radius: 18px;
+}
+
+.categoryChild>h5 {
+    color: #00b074;
+}
+
+.talentMain {
+    /* border: 1px solid brown; */
+    width: 90%;
+    /* height: 500px; */
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+}
+
+.talentOne {
+    /* border: 1px solid red; */
+    width: 50%;
+    /* height: 500px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.talentOne>div>img {
+    width: 100%;
+}
+
+.threeImage {
+    margin-left: 48px;
+    /* height: 350px; */
+    margin-bottom: 50px;
+}
+
+.talentTwo {
+    /* border: 1px solid red; */
+    width: 60%;
+    /* height: 500px; */
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.talentTwo>button {
+    width: 200px;
+    height: 55px;
+    background-color: #00b074;
+    border: none;
+    color: white;
+}
+
+.jobHeading {
+    text-align: center;
+}
+
+.jobSide {
+    /* border: 1px solid; */
+    width: 25%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.jobTable {
+    /* border: 1px solid; */
+    width: 90%;
+    /* height: 500px; */
+    margin: auto;
+}
+
+.jobTableChild {
+    /* border: 1px solid red; */
+    width: 95%;
+    /* height: 100px; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.childMain>div>img {
+    margin: 9px;
+}
+
+.childMain {
+    display: flex;
+}
+
+.applyButton>button {
+    width: 154px;
+    height: 38px;
+    background-color: #00b074;
+    border: none;
+    color: white;
+}
+
+.applyButton {
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.browseButton>button {
+    width: 170px;
+    height: 43px;
+    background-color: #00b074;
+    border: none;
+    color: white;
+}
+
+.browseButton {
+    display: flex;
+    justify-content: center;
+}
+
+.clientHeading {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.clientMain {
+    /* border: 1px solid; */
+    width: 90%;
+    /* height: 400px; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.clientChild {
+    /* border: 1px solid red; */
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #00b074;
+
+
+    /* height: 200px; */
+}
+
+.clientChild>p {
+    margin-left: 12px;
+}
+
+.SubChildMain>div>img {
+    margin: 9px;
+}
+
+.SubChildMain {
+    display: flex;
+}
+
+.footerMain {
+    /* border: 1px solid red; */
+    width: 90%;
+    /* height: 400px; */
+    margin: auto;
+    margin-top: 80px;
+    background-color: rgb(43 57 64);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footerHeadingMain {
+    /* border: 1px solid; */
+    width: 85%;
+    /* height: 100px; */
+    margin: auto;
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding-top: 60px;
+}
+
+.companyMain {
+    margin-left: 12px;
+}
+
+.QuickMain {
+    margin-left: 12px;
+}
+
+
+/* FOR TABLET */
+
+
+@media all and (min-width : 480px) and (max-width : 768px) {
+    .headerMain {
+        /* background-image: url('../jobSideNew/assets/carousel-1.jpg'); */
+        /* width: 50%; */
+        height: 500px;
+    }
+
+    .headerMainChild {
+        font-size: 20px;
+    }
+
+    .inputSection {
+        height: 240px;
+        display: block;
+        background-color: #00b074;
+    }
+
+    .inputSection>div>input {
+        margin-top: 20px;
+        margin-left: 55px;
+    }
+
+    .inputSection>div>button {
+
+        margin-top: 20px;
+        margin-left: 88px;
+    }
+
+    .categoryMain {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .categoryChild {
+        height: 95%;
+    }
+
+    .talentMain {
+        width: 90%;
+        margin: auto;
+        margin-top: 60px;
+        display: block;
+    }
+
+    .talentOne {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .talentOne>div>img {
+        width: 177px;
+    }
+
+    .threeImage {
+        margin: 0px;
+    }
+
+    .talentTwo {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .talentTwo>button {
+        margin-top: 30px;
+    }
+
+    .jobSide {
+        width: 100%;
+    }
+
+    .jobTableChild {
+        display: block;
+    }
+
+    .applyButton {
+        margin-left: 25px;
+    }
+
+    .jobHeading {
+        margin-top: 50px;
+    }
+
+    .browseButton {
+        margin-top: 40px;
+    }
+
+    .clientMain {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .clientChild>p {
+        margin-left: 7px;
+    }
+
+    .clientChild {
+        background-color: #00b074;
+    }
+
+    .footerHeadingMain {
+        display: block;
+    }
+
+    .footerHeadingMain>div>h3 {
+        color: white;
+    }
+}
+
+
+
+/* FOR MOBILE */
+
+
+@media all and (min-width : 320px) and (max-width : 479px) {
+
+    .headerMain {
+        /* background-image: url('../jobSideNew/assets/carousel-1.jpg'); */
+        /* width: 100%; */
+        height: 500px;
+    }
+
+    .headerMainChild {
+        font-size: 14px;
+    }
+
+    .headerMainChild {
+        margin-left: 17px;
+    }
+
+    .inputSection {
+        height: 250px;
+        display: block;
+    }
+
+    .inputSection>div>input {
+        margin-top: 20px;
+        margin-left: 45px;
+        width: 180px;
+        height: 38px;
+    }
+
+
+    .inputSection>div>button {
+        width: 180px;
+        margin-top: 20px;
+        margin-left: 45px;
+    }
+
+    .searchButtonMain>button:nth-child(2) {
+        margin-top: 12px;
+    }
+
+    .categoryMain {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .talentOne {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .talentOne>div>img {
+        width: 177px;
+    }
+
+    .threeImage {
+        margin: 0px;
+    }
+
+    .talentTwo {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .talentMain {
+        display: block;
+    }
+
+
+    .jobSide {
+        width: 100%;
+    }
+
+    .jobTableChild {
+        display: block;
+    }
+
+    .applyButton {
+        margin-left: 25px;
+    }
+
+    .jobHeading {
+        margin-top: 50px;
+    }
+
+    .clientMain {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .clientChild>p {
+        margin-left: 7px;
+    }
+
+    .clientChild {
+        background-color: #00b074;
+    }
+
+    
+    .footerHeadingMain {
+        display: block;
+    }
+
+    .footerHeadingMain>div>h3 {
+        color: white;
+    }
+}
