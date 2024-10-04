@@ -339,15 +339,20 @@
         background-color: #00b074;
     }
 
+    .inputSection>div {
+        display: flex;
+        justify-content: center;
+    }
+
     .inputSection>div>input {
         margin-top: 20px;
-        margin-left: 55px;
+        /* margin-left: 55px; */
     }
 
     .inputSection>div>button {
 
         margin-top: 20px;
-        margin-left: 88px;
+        /* margin-left: 88px; */
     }
 
     .categoryMain {
@@ -370,9 +375,14 @@
     }
 
     .talentOne>div>img {
-        width: 177px;
+        width: 195px;
+        height: 157px;
     }
 
+    .twoImage {
+        /* width: 268px; */
+        margin-top: 22px;
+    }
     .threeImage {
         margin: 0px;
     }
@@ -433,11 +443,11 @@
 /* FOR MOBILE */
 
 
-@media all and (min-width : 320px) and (max-width : 479px) {
+@media all and (min-width : 320px) and (max-width : 480px) {
 
     .headerMain {
         /* background-image: url('../jobSideNew/assets/carousel-1.jpg'); */
-        /* width: 100%; */
+        width: 100%;
         height: 500px;
     }
 
@@ -449,27 +459,42 @@
         margin-left: 17px;
     }
 
+    .searchButtonMain>button {
+        width: 108px;
+        height: 50px;
+    }
+    
+    .searchButtonMain {
+        justify-content: center;
+    }
+
     .inputSection {
         height: 250px;
         display: block;
     }
 
+    .inputSection>div {
+        display: flex;
+        justify-content: center;
+    }
+
     .inputSection>div>input {
         margin-top: 20px;
-        margin-left: 45px;
+        /* margin-left: 82px; */
         width: 180px;
         height: 38px;
     }
 
+    
 
     .inputSection>div>button {
         width: 180px;
         margin-top: 20px;
-        margin-left: 45px;
+        /* margin-left: 82px; */
     }
 
     .searchButtonMain>button:nth-child(2) {
-        margin-top: 12px;
+        margin-top: 0px;
     }
 
     .categoryMain {
@@ -478,10 +503,16 @@
 
     .talentOne {
         grid-template-columns: repeat(2, 1fr);
+        /* margin-left: 50px; */
     }
 
     .talentOne>div>img {
-        width: 177px;
+        width: 130px;
+    }
+
+    .twoImage {
+        width: 150px;
+        margin-top: 22px;
     }
 
     .threeImage {
